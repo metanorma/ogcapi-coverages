@@ -7,8 +7,8 @@
 identifier:: https://www.opengis.net/spec/ogcapi-coverages-1/1.0/req/laszip
 subject:: Web API
 inherit:: https://www.opengis.net/spec/ogcapi-coverages-1/1.0/req/core
-inherit:: https://docs.ogc.org/cs/17-030r1/17-030r1.pdf[OGC 17-030r1 LAS Specification 1.4 Community Standard]
-inherit:: https://docs.ogc.org/cs/24-070r1/24-070r1.pdf[OGC 24-070r1 LAZ 1.4 Community Standard]
+inherit:: http://www.opengis.net/doc/CS/las/1.4[OGC 17-030r1 LAS Specification 1.4 Community Standard]
+inherit:: http://www.opengis.net/doc/cs/laz/1.4[OGC 24-070r1 LAZ 1.4 Community Standard]
 requirement:: /req/laszip/coverage
 ====
 

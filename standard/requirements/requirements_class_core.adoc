@@ -39,7 +39,7 @@ identifier:: /req/core/conformance-success
 part:: If the API instance has a mechanism to advertise conformance classes, the list of conformance classes SHALL include the
 ones defined in this Standard and listed in <<table_conformance_urls>> that are supported by this API implementation instance.
 part:: If some conformance classes of this Standard are only supported by particular collections,
-requirements classes supported by these collections SHALL be listed in a resource linked to from the
+requirements classes supported by these collections SHALL be listed in a conformance resource (containing the `"comformsTo"` array) linked to from the
 collection description as described in
 the https://docs.ogc.org/DRAFTS/20-024.html#per_collections_conformance[OGC API - Common - Part 2 per-collection conformance permission].
 ====
@@ -47,7 +47,8 @@ the https://docs.ogc.org/DRAFTS/20-024.html#per_collections_conformance[OGC API 
 In the JSON format, the conformance resource is an array of links following the link schema defined in OGC API — Common — Part 1: Core.
 Below is an example fragment of a conformance information page of an API implementation conformant to OGC API — Coverages.
 
-```json
+[source,json]
+----
 {
   "conformsTo": [
     "https://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core",
@@ -60,7 +61,7 @@ Below is an example fragment of a conformance information page of an API impleme
     "https://www.opengis.net/spec/ogcapi-coverages-1/1.0/conf/core"
   ]
 }
-```
+----
 
 ==== Collection description
 
