@@ -1,29 +1,16 @@
-= OGC API - Coverages - Part 1: Core
+= OGC API - Coverages
 :doctype: standard
-:encoding: utf-8
-:lang: en
-:status: swg-draft
-:committee: technical
-:draft: 3.0
-:external-id: http://www.opengis.net/doc/is/ogcapi-coverages-1/1.0
-:docnumber: 19-087
-:received-date: 2029-03-30
-:issued-date: 2029-03-30
-:published-date: 2029-03-30
-:fullname: Charles Heazel
-:fullname_2: Jérôme Jacovella-St-Louis
-:fullname_3: Joan Masó
 :docsubtype: implementation
-:keywords: coverages, datacube, ogcdoc, OGC document, API, openapi, html, geographic information, spatial data
-:submitting-organizations: Heazeltech LLC; Ecere Corporation; Technologies Luqia; EOX IT Services GmbH; Meteorological Service of Canada; Universitat Autònoma de Barcelona (CREAF); CubeWerx Inc.; Natural Resources Canada; Constructor University
+:edition: 1.0
+:language: en
+:status: draft
+:committee: technical
+:docnumber: 19-087
+:received-date: 2026-10-25
+:issued-date: 2026-10-25
+:fullname: Open Geospatial Consortium
+:organization: Open Geospatial Consortium
 :mn-document-class: ogc
-:mn-output-extensions: html,pdf
-:local-cache-only:
-:data-uri-image:
-:pdf-uri: ./19-087.pdf
-:xml-uri: ./19-087.xml
-:doc-uri: ./19-087.doc
-:edition: 1.0.0rc4
 
 include::sections/clause_0_front_material.adoc[]
 

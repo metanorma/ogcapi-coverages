@@ -2,6 +2,7 @@
 metanorma:
   source:
     files:
+      - standard/19-087.adoc
       - metanorma/ogcapi-coverages/document.adoc
 
   collection:
